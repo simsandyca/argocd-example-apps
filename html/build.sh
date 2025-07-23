@@ -1,3 +1,4 @@
 #!/bin/bash 
 
-docker build . -t crudweasle/crud:html
+docker build . -t crudweasle/stuff:html
+docker push crudweasle/stuff:html

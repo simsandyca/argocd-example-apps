@@ -14,7 +14,7 @@ spec:
         app: html
     spec:
       containers:
-        - image: crudweasle/crud:html
+        - image: crudweasle/stuff:html
           name: html
           ports:
             - containerPort: 80
